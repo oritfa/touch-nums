@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>tuch-nums</title>
+</head>
+
+<body onload="init()">
+    <h1> Tuch Nums</h1>
+    <button onClick="startGame()">New Game</button>
+    <div class="options">
+        <input type="radio" name="difficulties" id="Easy" onclick="startGame()">
+        <label for="Easy">Easy</label>
+        <input type="radio" name="difficulties" id="Medium" onclick="startGame()" checked="true">
+        <label for="Medium">Medium</label>
+        <input type="radio" name="difficulties" id="Hard" onclick="startGame()">
+        <label for="Easy">Hard</label>
+    </div>
+    <div>
+       <span> 
+         <h2 class="timer">  Timer: 00:00</h2>
+    </span> 
+           
+
+    </div>
+    <div>
+        <table class="table" border="1" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

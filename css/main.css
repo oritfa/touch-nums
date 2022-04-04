@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    /* background-color: rgb(205, 244, 247); */
+}
+
+h2{
+    color: rgb(135, 122, 255);
+    text-shadow: 1px 1px #222121;
+    font-style: italic;
+}
+
+.options{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(1, 190, 181);
+    font-weight: bold;
+    text-shadow: 1px 1px #222121;
+
+}
+
+
+button{
+    margin: 5px;
+    width: 200;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-width: 1px;
+    font-size: 15px;
+    font-style: italic;
+    background-image: linear-gradient(to top right, rgb(243, 231, 231) , rgb(12, 233, 222));
+    
+}
+
+button:hover{
+    background-image: linear-gradient(to top right, rgb(243, 231, 231) , rgb(2, 187, 171));
+    background-color: rgb(114, 215, 240);
+}
+
+.table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 255, 255, 0.712);
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    /* background-color: rgb(122, 228, 255); */
+    background:linear-gradient(to top right,  rgb(231, 241, 243), rgb(122, 228, 255));
+    border-radius: 3px;
+    
+}
+
+.board td:hover {
+    background:linear-gradient(to top right,  rgb(231, 241, 243),rgb(135, 122, 255));
+}
+
+.board td.occupied {
+    background:linear-gradient(to top right,  rgb(231, 241, 243),rgb(135, 122, 255));
+}
